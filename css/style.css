@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+}
+.poster {
+    margin: 50px auto;
+    width: 1000px;
+    padding: 20px 50px;
+    border: none;
+    background-color: black;
+}
+.poster .heading h1 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+} 
+.poster .number p {
+    text-align: end;
+    color: white;
+    margin-bottom: 10px;
+}
+.details-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px;
+}
+.detail1 {
+    padding: 10px 20px;
+    width: 250px;
+    height: fit-content;
+    border: 1px solid #ff004f;
+    color: white;
+}
+.details-1 .detail1 img {
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.detail1 .name h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.detail1 .price-list {
+    display: flex;
+    justify-content: space-between;
+}
+.detail1 .weight p {
+    padding-bottom: 10px;
+}
+.price-list .price p{
+    padding-bottom: 15px;
+}
