@@ -8,8 +8,8 @@ body {
 }
 .poster {
     margin: 50px auto;
-    width: 1000px;
-    padding: 20px 50px;
+    width: 600px;
+    padding: 20px;
     border: none;
     background-color: black;
 }
@@ -27,19 +27,20 @@ body {
 .details-1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 10px;
+    row-gap: 25px;
     margin-top: 30px;
 }
 .detail1 {
-    padding: 10px 20px;
-    width: 250px;
+    padding: 10px ;
+    width: 180px;
     height: fit-content;
     border: 1px solid #ff004f;
     color: white;
 }
 .details-1 .detail1 img {
     width: 100px;
-    margin-left: 50px;
+    margin-left: 20%;
     margin-bottom: 20px;
 }
 .detail1 .name h3 {
